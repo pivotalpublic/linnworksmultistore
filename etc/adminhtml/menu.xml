@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Pivotal_LinnworksMultiStore::linnworksmultistore" title="LinnworksMultiStores" module="Pivotal_LinnworksMultiStore" sortOrder="40" parent="Magento_Catalog::inventory" action="linnworksmultistore/manage" resource="Pivotal_LinnworksMultiStore::LinnworksMultiStore"/>
+    </menu>
+</config>
